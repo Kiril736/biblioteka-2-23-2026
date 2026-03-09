@@ -61,7 +61,7 @@ if found == False:
 
 if st.button("pokaji nai evtina kniga"):
 
-else:
+ else:
   cheapest = st.sseassion_state.books[0]
 
 for book in st.session_state.books:
