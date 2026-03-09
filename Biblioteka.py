@@ -24,7 +24,7 @@ if st.button("pokJI VSICHKI KNIGI"):
 if len(st.session_state.books) == 0:
 st.write("nqma dobaveni knigi")
 else:
-for boom in st.session_state.books:
+for book in st.session_state.books:
 st.write("zaglavie", book["title"])
 st.write("avtor", book["author"])
 st.write("cena", book["price"])
@@ -42,7 +42,7 @@ for book in st.session_state.books:
   found = True
 
 if found == False:
-st.write("nqa namereni knigi ot tozi avtor")
+st.write("nqma namereni knigi ot tozi avtor")
 
 
 
