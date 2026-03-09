@@ -25,7 +25,7 @@ if st.button("pokJI VSICHKI KNIGI"):
   st.write("nqma dobaveni knigi")
 else:
  for book in st.session_state.books:
- st.write("zaglavie", book["title"])
+  st.write("zaglavie", book["title"])
 st.write("avtor", book["author"])
 st.write("cena", book["price"])
 st.write("------------------")
