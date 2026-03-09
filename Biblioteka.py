@@ -8,7 +8,7 @@ st.header("dobaci kniga")
 title = st.text_input("zaglavie")
 author = st.text_input("avtor")
 price = st.number_input("cena", min_value=0.0)
-if st.button("dobavi knigata")
+if st.button("dobavi knigata"):
 
 book = {
   "title": title,
