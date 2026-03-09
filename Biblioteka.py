@@ -25,7 +25,7 @@ if st.button("pokJI VSICHKI KNIGI"):
   st.write("nqma dobaveni knigi")
 else:
  for book in st.session_state.books:
-st.write("zaglavie", book["title"])
+ st.write("zaglavie", book["title"])
 st.write("avtor", book["author"])
 st.write("cena", book["price"])
 st.write("------------------")
@@ -52,9 +52,9 @@ if st.button("tursi po zaglavie")
  found = True
 
 for book in st.session_state.books:
-if book["title"] == search_title:
-  st.write(book)
-  found = True
+ if book["title"] == search_title:
+   st.write(book)
+   found = True
 
 if found == False:
   st.write("nqma namerena takava kniga.")
