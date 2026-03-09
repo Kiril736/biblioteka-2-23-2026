@@ -10,11 +10,11 @@ author = st.text_input("avtor")
 price = st.number_input("cena", min_value=0.0)
 if st.button("dobavi knigata"):
 
-book = {
+ book = {
   "title": title,
   "author": author,
   "price": price
-}
+ }
 
 st.session_state.books.append(book)
 st.success("knigata e dobavena!")
