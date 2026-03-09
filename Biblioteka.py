@@ -48,7 +48,7 @@ if found == False:
 
 st.header("tursene po zaglavie")
 search_title = st.text_input("vuvedi")
-if st.button("tursi po zaglavie")
+if st.button("tursi po zaglavie"):
  found = True
 
 for book in st.session_state.books:
